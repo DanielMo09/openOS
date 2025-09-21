@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel\\Desktop\\openOS\\openOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E316245B-25AB-4B21-84CF-2425961C3B5D}|openOS.csproj|c:\\users\\daniel\\desktop\\openos\\openos\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316245B-25AB-4B21-84CF-2425961C3B5D}|openOS.csproj|solutionrelative:kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kernel.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Desktop\\openOS\\openOS\\Kernel.cs",
+              "RelativeDocumentMoniker": "Kernel.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Desktop\\openOS\\openOS\\Kernel.cs",
+              "RelativeToolTip": "Kernel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T23:05:53.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
