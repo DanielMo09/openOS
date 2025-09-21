@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 using Sys = Cosmos.System;
 
 namespace openOS
@@ -10,15 +11,37 @@ namespace openOS
 
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+            Console.Clear();
+            Console.WriteLine("openOS has booted sucessfully");
         }
 
         protected override void Run()
         {
-            Console.Write("Input: ");
+            Console.Write("> ");
             var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            string[] splitInput = input.Split(" ");
+            string command = splitInput[0];
+
+            if (command == "help")
+            {
+                Console.WriteLine("Available commands:\n" +
+                    "help           Shows this list\n" +
+                    "ls [dir]       List all files and directories in given directory");
+            }
+
+            else if (command == "ls")
+            {
+                listDir();
+            }
+
+            else
+            {
+                Console.WriteLine("Command not found");
+            }
+        }
+        public void listDir()
+        {
+
         }
     }
 }
