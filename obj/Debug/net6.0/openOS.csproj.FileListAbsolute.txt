@@ -1,0 +1,13 @@
+C:\Users\Daniel\Desktop\openOS\openOS\bin\Debug\net6.0\openOS.deps.json
+C:\Users\Daniel\Desktop\openOS\openOS\bin\Debug\net6.0\openOS.dll
+C:\Users\Daniel\Desktop\openOS\openOS\bin\Debug\net6.0\openOS.pdb
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.csproj.AssemblyReference.cache
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.sourcelink.json
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.dll
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\refint\openOS.dll
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\openOS.pdb
+C:\Users\Daniel\Desktop\openOS\openOS\obj\Debug\net6.0\ref\openOS.dll
