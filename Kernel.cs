@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.IO;
-using Sys = Cosmos.System;
-using Cosmos.System.FileSystem;
+﻿using Cosmos.System.FileSystem;
 using Cosmos.System.FileSystem.VFS;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.IO.Pipes;
+using System.Text;
+using Sys = Cosmos.System;
 
 namespace openOS
 {
@@ -93,7 +94,6 @@ namespace openOS
                 string path = evaluatePath(splitInput[1]);
                 var file = Sys.FileSystem.VFS.VFSManager.GetFile(path);
                 var fileStream = file.GetFileStream();
-
                 if (fileStream.CanWrite)
                 {
                     string writeToFile;
@@ -101,8 +101,10 @@ namespace openOS
                     {
                         string fileLine = Console.ReadLine();
                         writeToFile = fileLine + "\n";
+                        File.WriteAllText(path, writeToFile);
                         if (Console.ReadKey().Key == ConsoleKey.E && (Console.ReadKey().Modifiers & ConsoleModifiers.Control) != 0)
                         {
+                            writeToFile();
                             break;
                         }
                     }
@@ -167,6 +169,11 @@ namespace openOS
             }
 
             return false;
+        }
+        public void writeToFile(string fileContent, FileStream fileStream)
+        {
+            byte[] buffer = new byte[fileContent.Length];
+            var openFile = fileStream.WriteAsync();
         }
     }
 }
